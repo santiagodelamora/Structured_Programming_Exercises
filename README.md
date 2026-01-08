@@ -1,9 +1,11 @@
-# Ejemplos de programas de programación estructurada
+# 📦 Ejemplos de programas de programación estructurada
 Conjunto de ejercicios de programación estructurada en Java.
+
+![Java](./java.png "Java")
 
 ---
 
-## Temas
+## 📒 Temas
 * Introducción a la programación
 * Estructuras de control
 * Subprogramas y recursividad
@@ -11,5 +13,5 @@ Conjunto de ejercicios de programación estructurada en Java.
 
 ---
 
-## Autor
+## ✍️ Autor
 Santiago De la mora - Desarrollador de software curioso y en constante aprendizaje.
