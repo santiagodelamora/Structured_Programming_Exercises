@@ -1,14 +1,12 @@
 # 📦 Ejemplos de programas de programación estructurada
-Conjunto de ejercicios de programación estructurada en Java.
+Conjunto de ejercicios de programación estructurada en Java y Python.
 
-### Programación Estructurada en Java
-
-Este repositorio está dedicado a explorar y comprender los principios fundamentales de la programación estructurada utilizando el lenguaje Java. Aquí encontrarás ejemplos, ejercicios y recursos que te ayudarán a dominar este paradigma de programación esencial.
+### Programación Estructurada en Java y Python
+Este repositorio está dedicado a explorar y comprender los principios fundamentales de la programación estructurada utilizando los lenguajes Java y Python. Aquí encontrarás ejemplos, ejercicios y recursos que te ayudarán a dominar este paradigma de programación esencial.
 
 ![Java](./java.png "Java")
 
 ### ¿Qué es la Programación Estructurada?
-
 La programación estructurada es un paradigma de programación que busca mejorar la claridad, calidad y tiempo de desarrollo de un programa de computadora utilizando un conjunto de estructuras de control de flujo bien definidas:
 * **Secuencia:** Las instrucciones se ejecutan en el orden en que aparecen.
 * **Selección (o Decisión):** Permite ejecutar diferentes bloques de código basados en una condición (e.g., `if-else`, `switch`).
