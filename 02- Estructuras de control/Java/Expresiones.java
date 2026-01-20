@@ -4,8 +4,6 @@
  * Fecha: 14/01/2026
  */
 
-package mx.edu.uttt.estructurasControl;
-
 import javax.swing.JOptionPane;
 
 public class Expresiones {
