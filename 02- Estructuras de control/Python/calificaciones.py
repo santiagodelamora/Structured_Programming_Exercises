@@ -1,7 +1,7 @@
 """
-Descripción: Calcula el promedio de 3.
+Descripción: Calcula el promedio de 3 calificaciones.
 Autor: Santiago De la mora
-Fecha: 15/01/2026
+Fecha: 20/01/2026
 """
 
 # Entrada
