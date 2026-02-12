@@ -4,8 +4,6 @@
  * Fecha: 21/01/2026
  */
 
-package mx.edu.uttt.estructurasControl;
-
 import javax.swing.JOptionPane;
 
 public class OperacionesBasicas {
@@ -25,8 +23,7 @@ public class OperacionesBasicas {
 6) Potencia
 7) Raíz
 
-Elige una opción
-        """;
+Elige una opción""";
 
         // Solicita la opción
         opcion = JOptionPane.showInputDialog(
@@ -184,7 +181,7 @@ Elige una opción
                         )
                 );
 
-                // Verifica si el valor  no es 0
+                // Verifica si el valor 2 no es 0
                 if (valor2 != 0) {
                     JOptionPane.showMessageDialog(
                             null,
@@ -253,7 +250,7 @@ Elige una opción
                         )
                 );
 
-                // Verifica si el valor no es 0
+                // Verifica si el valor no es 0 o negativo
                 if (valor1 > 0.0) {
                     JOptionPane.showMessageDialog(
                             null,
@@ -264,7 +261,7 @@ Elige una opción
                 } else {
                     JOptionPane.showMessageDialog(
                             null,
-                            "El valor no puede ser 0",
+                            "El valor no puede ser 0 o negativo",
                             "Error",
                             JOptionPane.ERROR_MESSAGE
                     );
@@ -275,7 +272,7 @@ Elige una opción
             default:
                 JOptionPane.showMessageDialog(
                     null,
-                    "Opción inválida. Ingrese una opción del 1 al 70",
+                    "Opción inválida. Ingrese una opción del 1 al 7",
                     "Error",
                     JOptionPane.ERROR_MESSAGE
                 );

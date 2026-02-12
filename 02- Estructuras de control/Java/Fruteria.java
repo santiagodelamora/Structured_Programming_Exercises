@@ -4,8 +4,6 @@
  * Fecha: 22/01/2026
  */
 
-package mx.edu.uttt.estructurasControl;
-
 import javax.swing.*;
 
 public class Fruteria {

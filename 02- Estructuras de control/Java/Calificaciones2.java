@@ -4,13 +4,11 @@
  * Fecha: 21/01/2026
  */
 
-package mx.edu.uttt.estructurasControl;
-
 import javax.swing.*;
 
 public class Calificaciones2 {
     public static void main(String[] args) {
-        // Declaración de variables
+        // Declaración de variables y constantes
         double calificacion1, calificacion2, calificacion3, promedio;
         final int NUMERO_CALIFICACION = 3;
 
@@ -43,7 +41,7 @@ public class Calificaciones2 {
         );
 
         // Calcula el promedio
-        promedio = (calificacion1 + calificacion2 + calificacion3) / 3;
+        promedio = (calificacion1 + calificacion2 + calificacion3) / NUMERO_CALIFICACION;
 
         // Validación con una estructura de control selectiva doble
         if (promedio >= 7.0) {
