@@ -5,8 +5,6 @@
  * Fecha: 11/02/2026
  */
 
-package mx.edu.uttt.ejerciciosunidad2;
-
 import javax.swing.JOptionPane;
 
 public class NumerosPrimosDentroDeRango {
@@ -28,7 +26,7 @@ public class NumerosPrimosDentroDeRango {
                 // Indica que se debe volver a solicitar el número
                 esValido = false;
             } else {
-                // Indica que se debe dejar de repetir el bucle
+                // Indica que se debe dejar de solicitar el número
                 esValido = true;
             }
         } while (!esValido);
@@ -44,7 +42,7 @@ public class NumerosPrimosDentroDeRango {
                 // Indica que se debe volver a solicitar el número
                 esValido = false;
             } else {
-                // Indica que se debe dejar de repetir el bucle
+                // Indica que se debe dejar de solicitar el número
                 esValido = true;
             }
         } while (!esValido);
@@ -65,7 +63,7 @@ public class NumerosPrimosDentroDeRango {
             // Verifica si el número se dividió solo una vez
             if (numeroDivisiones == 1) {
                 // Concatena el número y agrega un espacio
-                numerosPrimos += i + "  ";
+                numerosPrimos += i + " ";
             }
         }
 

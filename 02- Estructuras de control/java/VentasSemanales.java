@@ -5,8 +5,6 @@
  * Fecha: 11/02/2026
  */
 
-package mx.edu.uttt.ejerciciosunidad2;
-
 import javax.swing.JOptionPane;
 
 public class VentasSemanales {
@@ -84,6 +82,7 @@ public class VentasSemanales {
             ventaMayor = venta2;
             diaSemanaMayoresVentas = "Lunes";
         }
+
         if (venta3 < ventaMenor) {
             ventaMenor = venta3;
             diaSemanaMenoresVentas = "Martes";
@@ -92,6 +91,7 @@ public class VentasSemanales {
             ventaMayor = venta3;
             diaSemanaMayoresVentas = "Martes";
         }
+
         if (venta4 < ventaMenor) {
             ventaMenor = venta4;
             diaSemanaMenoresVentas = "Miércoles";
@@ -100,6 +100,7 @@ public class VentasSemanales {
             ventaMayor = venta4;
             diaSemanaMayoresVentas = "Miércoles";
         }
+
         if (venta5 < ventaMenor) {
             ventaMenor = venta5;
             diaSemanaMenoresVentas = "Jueves";
@@ -108,6 +109,7 @@ public class VentasSemanales {
             ventaMayor = venta5;
             diaSemanaMayoresVentas = "Jueves";
         }
+
         if (venta6 < ventaMenor) {
             ventaMenor = venta6;
             diaSemanaMenoresVentas = "Viernes";
@@ -116,6 +118,7 @@ public class VentasSemanales {
             ventaMayor = venta6;
             diaSemanaMayoresVentas = "Viernes";
         }
+        
         if (venta7 < ventaMenor) {
             ventaMenor = venta7;
             diaSemanaMenoresVentas = "Sábado";

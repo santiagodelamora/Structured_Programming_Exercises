@@ -5,8 +5,6 @@
  * Fecha: 10/02/2026
  */
 
-package mx.edu.uttt.ejerciciosunidad2;
-
 import javax.swing.JOptionPane;
 
 public class TablaMultiplicar {
