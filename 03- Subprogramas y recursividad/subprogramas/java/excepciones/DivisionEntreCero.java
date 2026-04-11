@@ -39,9 +39,7 @@ public class DivisionEntreCero {
             );
         } catch (ArithmeticException e) {
             System.err.println(e.getMessage() + "\n");
-            System.err.println(e.getCause() + "\n");
             e.printStackTrace();
-            System.err.println("\nNo se puede dividir entre 0.");
             JOptionPane.showMessageDialog(
                     null,
                     "No se puede dividir entre 0.",

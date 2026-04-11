@@ -1,7 +1,7 @@
 /**
  * Descripción: Mulitples catch para manejo de múltiples excepciones a la vez.
  * Autor: Santiago Nicolás De la mora Núñez
- * Fecha: 25/02/2026
+ * Fecha de creación: 25/02/2026
  */
 
 import javax.swing.JOptionPane;

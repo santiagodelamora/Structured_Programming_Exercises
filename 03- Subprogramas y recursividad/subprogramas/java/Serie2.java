@@ -78,7 +78,7 @@ public class Serie2 {
                         JOptionPane.ERROR_MESSAGE
                 );
 
-                 esValido = false;
+                esValido = false;
             }
 
         } while (!esValido);

@@ -7,15 +7,6 @@
 import javax.swing.JOptionPane;
 
 public class Operaciones {
-    public static void main(String[] args) {
-        int numero1 = 0, numero2 = 0, suma = 0;
-        saludar();
-        numero1 = solicitarValor();
-        numero2 = solicitarValor();
-        suma = sumar(numero1, numero2);
-        imprimir(suma);
-    }
-
     public static void imprimir(int resultado) {
         JOptionPane.showMessageDialog(null, "EL resultado es: " + resultado);
     }

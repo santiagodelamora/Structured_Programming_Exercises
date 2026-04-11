@@ -49,12 +49,12 @@ public class SistemaVentas {
                     JOptionPane.PLAIN_MESSAGE
             );
 
-            // Verifica si no se ingresó nada (no se devolvió null)
+            // Verifica si se ingresó algo (no se devolvió null)
             if (nombre != null) {
-                // Quita los espacios en blanco en la orilla
+                // Quita los espacios en blanco del principio y el final
                 nombre = nombre.trim();
 
-                // Obtiene la longitud de la cadena (nombre)
+                // Obtiene la longitud de la cadena
                 int longitudNombre = nombre.length();
 
                 // Verifica si el número de carácteres del nombre está entre 1 y 10
@@ -110,7 +110,7 @@ public class SistemaVentas {
         total = 0.0;
 
         for (int i = 1; i <= cantidad; i++) {
-            precio = validarNumeroDecimalePositivo("Precio de producto");
+            precio = validarNumeroDecimalPositivo("Precio de producto");
             total += precio;
         }
 
@@ -152,7 +152,7 @@ public class SistemaVentas {
         }
     }
 
-    private static double validarNumeroDecimalePositivo(String mensaje) {
+    private static double validarNumeroDecimalPositivo(String mensaje) {
         double numero;
 
         while (true) {
@@ -179,7 +179,7 @@ public class SistemaVentas {
             } catch (NumberFormatException e) {
                 JOptionPane.showMessageDialog(
                         null,
-                        "Debe ingresar un número positivo.",
+                        "Sólo puede ingresar números.",
                         "Error",
                         JOptionPane.ERROR_MESSAGE
                 );

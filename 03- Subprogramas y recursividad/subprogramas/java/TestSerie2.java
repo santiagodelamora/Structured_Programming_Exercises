@@ -1,5 +1,5 @@
 /**
- * Descripción: Ejecuta el programa Serie1.
+ * Descripción: Ejecuta el programa Serie2.
  * Autor: Santiago Nicolás De la mora Núñez
  * Fecha: 25/02/2026
  */

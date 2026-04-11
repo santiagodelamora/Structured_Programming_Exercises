@@ -1,3 +1,9 @@
+/**
+ * Descripción: Realizar un programa que resuelve una suma de el recíproco de factoriales.
+ * Autor: Santiago Nicolás De la mora Núñez
+ * Fecha: 20/02/2026
+ */
+
 import javax.swing.JOptionPane;
 
 public class Serie {

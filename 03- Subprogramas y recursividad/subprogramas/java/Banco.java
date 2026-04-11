@@ -101,7 +101,7 @@ public class Banco {
                 case "1", "A" -> {
                     JOptionPane.showMessageDialog(
                             null,
-                            "Tu saldo es: " + consultarSaldo(),
+                            "Tu saldo es de: $" + consultarSaldo(),
                             "Saldo",
                             JOptionPane.PLAIN_MESSAGE
                     );

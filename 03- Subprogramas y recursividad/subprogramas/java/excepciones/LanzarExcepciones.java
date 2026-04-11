@@ -1,7 +1,7 @@
 /**
  * Descripción: Lanzamiento de excepciones.
  * Autor: Santiago Nicolás De la mora Núñez
- * Fecha: 25/02/2026
+ * Fecha de creación: 25/02/2026
  */
 
 public class LanzarExcepciones {
