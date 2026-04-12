@@ -1,3 +1,6 @@
 # Archivos caché de Python
 **/__pycache__/
 *.pyc
+
+# IDE
+.idea/
