@@ -67,6 +67,7 @@ public class RecursividadVarios {
             return 1;
         }
 
+        // Caso recursivo
         return base * potenciaRecursiva(base, exponente - 1);
     }
 

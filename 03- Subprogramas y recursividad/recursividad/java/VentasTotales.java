@@ -6,8 +6,6 @@
  * Fecha de creación: 16/03/2026
  */
 
-package mx.edu.uttt.recursividad;
-
 import javax.swing.JOptionPane;
 
 public class VentasTotales {
@@ -79,7 +77,7 @@ public class VentasTotales {
             return sumarVentasRecursivamente(--numeroVentas);
         }
 
-        return montoVenta + sumarVentasRecursivamente(--numeroVentas);
+        return montoVenta + sumarVentasRecursivamente(numeroVentas - 1);
 
         /*
         sumarVentasRecursivamente(3)

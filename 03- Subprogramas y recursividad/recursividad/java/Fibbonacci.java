@@ -12,7 +12,7 @@ public class Fibbonacci {
 
         JOptionPane.showMessageDialog(
                 null,
-                "Fibbonacci de " + numero + " es " + calcularFibbonacci(numero),
+                "Serie Fibbonacci de " + numero + " es " + calcularFibbonacci(numero),
                 "Serie Fibbonnacci",
                 JOptionPane.PLAIN_MESSAGE
         );

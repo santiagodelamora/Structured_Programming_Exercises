@@ -15,7 +15,7 @@ public class Recursividad2 {
         System.out.println("La suma es: " + resultado);*/
 
         resultado = potencia(2, 4);
-        System.out.println("2^4 = " + resultado);
+        System.out.println("2⁴ = " + resultado);
     }
 
     private static int sumarIterativo(int n) {
@@ -53,7 +53,6 @@ public class Recursividad2 {
         }
     }
 
-    // TODO: Calcular la potencia (2^4 = 2 * 2 * 2 * 2)
     /*
     potencia(2, 4)
         |

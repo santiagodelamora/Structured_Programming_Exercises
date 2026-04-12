@@ -73,6 +73,7 @@ public class TablaMultiplicar {
         int i = 1;
         while (i <= 10) {
             System.out.println(n + " x " + i + " = " + (n * i));
+            
             i++;
         }
     }

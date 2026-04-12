@@ -36,7 +36,6 @@ public class Recursividad1 {
         // Caso general (recursivo)
         else {
             imprimir(n - 1);
-
             System.out.print(n + " ");
         }
     }
